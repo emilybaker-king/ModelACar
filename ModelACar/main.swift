@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Car {
+    let model: String
+    let make: String
+    let year: Int
+}
+
+let car = Car(model: "Mustang", make: "Ford", year: 2004)
+
+
 
